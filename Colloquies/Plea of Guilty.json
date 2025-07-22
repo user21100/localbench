@@ -1,0 +1,672 @@
+{
+  "title": "GUILTY PLEA COLLOQUY",
+  "publication_date": "Published Aug. 2016",
+  "table_of_contents": [
+    {
+      "title": "INTRODUCTION",
+      "anchor": "#introduction"
+    },
+    {
+      "title": "WAIVER OF INDICTMENT FOR SCI",
+      "anchor": "#waiver_of_indictment"
+    },
+    {
+      "title": "MOTION BY DEFENSE TO PLEAD GUILTY",
+      "anchor": "#motion_to_plead"
+    },
+    {
+      "title": "WAIVED OR FORFEITED RIGHTS",
+      "anchor": "#waived_rights",
+      "children": [
+        {
+          "title": "Trial by Jury Waived",
+          "anchor": "#jury_trial_waiver"
+        },
+        {
+          "title": "Right to Appeal Waived",
+          "anchor": "#appeal_waiver"
+        }
+      ]
+    },
+    {
+      "title": "Determinate sentence [if applicable]",
+      "anchor": "#determinate_sentence"
+    },
+    {
+      "title": "Revocable Sentence",
+      "anchor": "#revocable_sentence"
+    },
+    {
+      "title": "Driving While Intoxicated Conditions",
+      "anchor": "#dwi_conditions"
+    },
+    {
+      "title": "License Revocation",
+      "anchor": "#license_revocation",
+      "children": [
+        {
+          "title": "For Driving While Intoxicated",
+          "anchor": "#dwi_revocation"
+        },
+        {
+          "title": "For other Offenses",
+          "anchor": "#other_offense_revocation"
+        }
+      ]
+    },
+    {
+      "title": "ADVICE",
+      "anchor": "#advice",
+      "children": [
+        {
+          "title": "Conditional Sentence Promise Explained",
+          "anchor": "#conditional_sentence"
+        },
+        {
+          "title": "Sex Offense - Civil Commitment",
+          "anchor": "#sex_offense_civil_commitment"
+        },
+        {
+          "title": "Deportation",
+          "anchor": "#deportation"
+        },
+        {
+          "title": "Right to Vote",
+          "anchor": "#right_to_vote"
+        },
+        {
+          "title": "Sex Offense Registration",
+          "anchor": "#sex_offense_registration"
+        }
+      ]
+    },
+    {
+      "title": "SEX OFFENSE WITH STATE PRISON",
+      "anchor": "#sex_offense_state_prison"
+    },
+    {
+      "title": "Waiver of Discovery",
+      "anchor": "#waiver_of_discovery"
+    },
+    {
+      "title": "CONDITIONS OF RELEASE BEFORE SENTENCE",
+      "anchor": "#conditions_of_release"
+    },
+    {
+      "title": "VOLUNTARINESS",
+      "anchor": "#voluntariness"
+    },
+    {
+      "title": "CONCLUSION",
+      "anchor": "#conclusion"
+    },
+    {
+      "title": "ARRAIGNMENT OF THE DEFENDANT ON A PREDICATE FELONY STATEMENT",
+      "anchor": "#predicate_felony_arraignment"
+    }
+  ],
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "INTRODUCTION",
+      "content": [
+        {
+          "type": "note",
+          "text": "If the expected plea is the product of a plea agreement, the court may wish to place that agreement on the record before proceeding with the colloquy to make sure there is no misunderstanding and the defendant in fact wishes to plead guilty."
+        },
+        {
+          "type": "note",
+          "text": "If the court does so, then at the appropriate place in the colloquy, the court need ask the defendant only whether he understands the terms and conditions of the agreement that were placed on the record at the beginning of the proceedings."
+        }
+      ]
+    },
+    {
+      "id": "waiver_of_indictment",
+      "title": "WAIVER OF INDICTMENT FOR SCI",
+      "is_required": true,
+      "content": [
+        {
+          "type": "instruction",
+          "text": "Request Waiver of Indictment and Waiver of Appellate Rights forms"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Court",
+          "lines": [
+            "The document we will first discuss is the “Waiver of Indictment”",
+            "Is this your signature on the Waiver of Indictment?",
+            "Did you sign it just now at counsel table?",
+            "Did you review it with your attorney before signing it?",
+            "Are you satisfied that you understand what it says?",
+            "Under a waiver of indictment, you are agreeing to waive presentation of your case to a Grand Jury, you are agreeing to waive your right to indictment by a grand jury and you are agreeing to be prosecuted by way of a “Superior Court Information.”",
+            "Is that your understanding and intention?",
+            "The record should reflect that the waiver of indictment was signed in open court by the D in the presence of his/her attorney.",
+            "I have reviewed the waiver and I find that it complies with Article 195 of the Criminal Procedure Law and I have signed it."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "motion_to_plead",
+      "title": "MOTION BY DEFENSE TO PLEAD GUILTY",
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "Court to Defense Counsel",
+          "lines": [
+            "Do you have an application on behalf of your client to enter a plea of guilty [to the offenses and under the terms I have just outlined]?"
+          ]
+        },
+        {
+          "type": "dialogue_options",
+          "speaker": "Court to District Attorney",
+          "condition": "if the plea is not to the entire indictment",
+          "options": [
+            "Is that plea and sentence commitment acceptable?",
+            "Is that plea acceptable, subject to your sentence recommendation?"
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Court to Defendant",
+          "lines": [
+            "Optional: Do you swear or affirm to tell the whole truth, and nothing but the truth, during this proceeding?",
+            "I must decide whether to accept the plea(s) of guilty offered by your attorney on your behalf.",
+            "In order to make that decision, I must ask you some questions and listen to and evaluate the answers.",
+            "Before you answer a question, you may talk with your lawyer about the question and then answer.",
+            "If you do not understand or hear a question, please tell me.",
+            "As I said, I will be asking you questions. As a result, by answering the questions and pleading guilty, you are giving up your right to remain silent and not to incriminate yourself.",
+            "Do you understand?",
+            "Have you spoken with your lawyer about your case, about pleading guilty, and about thereby waiving your right to a trial by jury?",
+            "Are you satisfied with the services of your lawyer?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "waived_rights",
+      "title": "WAIVED OR FORFEITED RIGHTS",
+      "subsections": [
+        {
+          "id": "jury_trial_waiver",
+          "title": "Trial by Jury Waived",
+          "content": [
+            {
+              "type": "statement",
+              "text": "By pleading guilty, you waive the right to a trial by jury."
+            },
+            {
+              "type": "explanation",
+              "title": "At a trial by jury you are presumed to be innocent, and you are entitled to the following rights:",
+              "points": [
+                "the right to be represented by your lawyer.",
+                "the right to confront and cross-examine witnesses presented by the government.",
+                "the right to remain silent and not to incriminate yourself.",
+                "And you have the right to call witnesses and to testify yourself, but you’re not required to do so.",
+                "Finally, you have the right to require the government to prove your guilt beyond a reasonable doubt to a jury of twelve people who must be unanimous in finding that you are guilty."
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Court to Defendant",
+              "lines": [
+                "Do you understand each of those rights, and that by pleading guilty, you give up those rights?",
+                "Do you understand that by pleading guilty, you give up any defense you may have?",
+                "Do you understand that a plea of guilty is the same as a verdict of guilty rendered by a jury after a trial?"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "appeal_waiver",
+          "title": "Right to Appeal Waived",
+          "content": [
+            {
+                "type": "instruction",
+                "text": "[Do the People require a waiver of the right to appeal?]"
+            },
+            {
+                "type": "explanation",
+                "points": [
+                    "A defendant ordinarily retains the right to appeal even after pleading guilty.",
+                    "A waiver of the right to appeal is separate and distinct from the waiver of a trial and other rights by a plea of guilty.",
+                    "In this case, a condition of the plea agreement is that you waive your right to appeal.",
+                    "An appeal is a proceeding before a higher court. If a defendant cannot afford the costs of an appeal or of a lawyer, the state will bear those costs.",
+                    "On an appeal, a defendant may argue that a mistake took place in this court which requires a modification or reversal of the conviction.",
+                    "A reversal would require either new proceedings in this court or a dismissal.",
+                    "By waiving your right to appeal, you do not give up your right to take an appeal by filing a notice of appeal with this court and the DA within 30 days of the sentence.",
+                    "But, if you take an appeal, you are by this waiver giving up the right to have the appellate court consider most claims of error and to consider whether your sentence is excessive and should be modified.",
+                    "As a result, the conviction by this plea and sentence will normally be final.",
+                    "Among the limited number of claims that will survive the waiver are: the voluntariness of this plea, the validity and voluntariness of this waiver, the legality of the sentence, and the jurisdiction of this Court."
+                ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Court to Defendant",
+              "lines": [
+                "Do you understand?",
+                "Have you spoken to your lawyer about waiving your right to appeal?",
+                "Are you willing to do so in return for the plea and sentence agreement?",
+                "Do you waive your right to appeal voluntarily, of your own free will and choice?"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "determinate_sentence",
+      "title": "Determinate sentence [if applicable]",
+      "content": [
+        {
+          "type": "note",
+          "text": "If the commitment includes a determinate sentence of imprisonment, the defendant must also be advised of the post-release supervision period (see People v Catu, 4 NY3d 242 [2005]). However, a court may, but is not required to, advise a defendant of the consequences of a violation of post-release supervision (see People v Monk, 21 NY3d 27[2013])."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Court to Defendant",
+          "lines": [
+            "The determinate sentence of imprisonment will be followed by a period of post-release supervision of (specify) years.",
+            "[Post-release supervision commences when you are released and requires that you be subject to the supervision of a parole officer and that you adhere to certain conditions. A violation of a condition of post-release supervision can result in re-incarceration for the unserved portion of your determinate sentence plus up to the balance of the remaining period of post-release supervision.]",
+            "Do you understand?"
+          ]
+        }
+      ]
+    },
+    {
+        "id": "revocable_sentence",
+        "title": "Revocable Sentence",
+        "content": [
+            {
+                "type": "note",
+                "text": "A court may, but is not required to, advise the defendant of the terms and conditions of probation (see People v Gravino, 14 NY3d 546 [2010])."
+            },
+            {
+                "type": "dialogue",
+                "speaker": "Court to Defendant",
+                "lines": [
+                    "You should be aware that a sentence of (specify: probation, conditional discharge, or intermittent imprisonment) is a revocable sentence.",
+                    "That means that, as part of that sentence, you will be required to adhere to certain conditions.",
+                    "Those conditions will be set forth in a writing and given to you at the time of sentence.",
+                    "If you violate one or more of those conditions, the sentence may be revoked, and you may be re-sentenced, including to jail/prison?",
+                    "Do you understand?"
+                ]
+            }
+        ]
+    },
+    {
+      "id": "dwi_conditions",
+      "title": "Driving While Intoxicated Conditions",
+      "content": [
+        {
+            "type": "note",
+            "text": "If imprisonment is imposed for DWI pursuant to Vehicle and Traffic Law 1192 (2), (2a), and (3), probation or conditional discharge must also be imposed consecutive to the prison sentence and installation of an ignition interlock device. For certain other crimes, involving alcohol, a consecutive sentence of probation or conditional discharge is not required, but if a sentence of probation or conditional discharge is imposed, the ignition interlock device must be ordered. Those crimes are: vehicular assault 1 and 2 (Penal Law 120.03, 120.04); aggravated vehicular assault (Penal Law 120.04a); vehicular manslaughter 1 and 2 (Penal Law 125.12, 125.13); and aggravated vehicular homicide (Penal Law 125.14)."
+        },
+        {
+            "type": "dialogue",
+            "speaker": "Court to Defendant",
+            "lines": [
+                "For the conviction of DWI [or (specify)], the (probation / conditional discharge) portion of the sentence will run consecutive to the sentence of imprisonment.",
+                "Do you understand?"
+            ]
+        },
+        {
+            "type": "explanation",
+            "title": "Those conditions will include:",
+            "points": [
+                "That you be subject to supervision by a probation officer.",
+                "That you do not engage in any criminal conduct.",
+                "That you successfully complete an alcohol treatment program",
+                "That you attend a Victim Impact Panel.",
+                "Installing an ignition interlock device in any vehicle that you own or operate and keeping it there for (specify period). That device must be installed in any car you own or would be able to operate even though your license is suspended or revoked.",
+                "You are not permitted to drive while your license is suspended or revoked and, in any event, without the ignition interlock device installed.",
+                "[You may be exempt from the installation of that device if you sign an affidavit stating, under penalty of perjury, that you do not own a car and will not drive during the interlock restriction period.]"
+            ]
+        },
+        {
+            "type": "dialogue",
+            "speaker": "Court to Defendant",
+            "lines": [
+                "Those and other conditions will be set forth in a writing and given to you at the time of sentence.",
+                "If you violate one or more of those conditions, the sentence may be revoked, i.e., set aside, and you may be resentenced, including to prison.",
+                "Do you understand?"
+            ]
+        }
+      ]
+    },
+    {
+        "id": "license_revocation",
+        "title": "License Revocation",
+        "subsections": [
+            {
+                "id": "dwi_revocation",
+                "title": "For Driving While Intoxicated",
+                "content": [
+                    {
+                        "type": "statement",
+                        "text": "At sentence, your driver’s license will be: (select and specify as appropriate):"
+                    },
+                    {
+                        "type": "list",
+                        "items": [
+                            "Vehicle and Traffic Law 1192 (1) (Driving While Ability Impaired): Suspended for 90 days; or Six months (if the crime was committed within five years of a prior conviction of Vehicle and Traffic Law 1192).",
+                            "Vehicle and Traffic Law 1192 (2) (Driving While Intoxicated; per se & Vehicle and Traffic Law 1192 (3) Driving While Intoxicated: Revoked for six months; or One year (if the conviction is for a felony committed within 10 years of a prior conviction of Vehicle and Traffic Law 1192 [2], [3], [4], or [4a]), or 18 months (if the conviction is for a felony committed within 10 years of a prior conviction of Vehicle and Traffic Law 1192 [2a]).",
+                            "Vehicle and Traffic Law 1192 (2a) (Aggravated Driving While Intoxicated): Revoked for one year; or 18 months (if crime committed within 10 years of a prior conviction of Vehicle and Traffic Law 1192 [2], [2a], [3], [4], or [4a])."
+                        ]
+                    },
+                    {
+                        "type": "dialogue",
+                        "speaker": "Court to Defendant",
+                        "lines": [
+                            "Further, the Commissioner of Motor Vehicles will not grant you a temporary license during the period of suspension/revocation, and the Commissioner of Motor Vehicles will decide whether your license is restored and when.",
+                            "Do you understand?"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "other_offense_revocation",
+                "title": "For other Offenses",
+                "content": [
+                    {
+                        "type": "note",
+                        "text": "People v Castellini (24 Misc 3d 66 [1st Dept, App Term, 2009]) held that if loss of a driver’s license is required, the defendant must be so advised."
+                    },
+                    {
+                        "type": "explanation",
+                        "title": "A court must suspend or revoke a license upon conviction of the following crimes:",
+                        "points": [
+                            "LEAVING THE SCENE: License must be revoked when the defendant is convicted of any violation of Vehicle and Traffic Law 600 (2), or of a local law or ordinance making it unlawful to leave the scene of an accident without reporting (see Vehicle and Traffic Law 510).",
+                            "HOMICIDE OR ASSAULT: License must be revoked when the defendant is convicted of homicide or assault arising out of the operation of a motor vehicle or motorcycle (see Vehicle and Traffic Law 510 [2] [a] [i]). Revocation is for at least for six months. Restoration thereafter is in the discretion of the Commissioner of Motor Vehicles (see Vehicle and Traffic Law 510 [6]).",
+                            "In New York City or Buffalo, suspended for a period of not less than 30 nor greater than 180 days when the defendant is convicted of the crime of assault in the first, second or third degree, and when such offense was committed against a New York City or Buffalo traffic enforcement agent while such agent was enforcing or attempting to enforce the traffic regulations of such city (see Vehicle and Traffic Law 510 [2] [b] [iv])."
+                        ]
+                    },
+                    {
+                        "type": "dialogue",
+                        "speaker": "Court to Defendant",
+                        "lines": [
+                            "At the time of sentence, your driver’s license will be (specify: suspended or revoked) for a period of (specify).",
+                            "Do you understand?"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "advice",
+        "title": "ADVICE",
+        "subsections": [
+            {
+                "id": "conditional_sentence",
+                "title": "Conditional Sentence Promise Explained",
+                "content": [
+                    {
+                        "type": "note",
+                        "text": "The following condition applies whether stated or not. The plea court may, therefore, consider explaining the following only when there is reason to believe that the plea and sentence commitment may well be affected by information received at the time of sentence."
+                    },
+                    {
+                        "type": "dialogue",
+                        "speaker": "Court to Defendant",
+                        "lines": [
+                            "Under our law, a court's sentence commitment is conditional. What that means is that between now and the time of sentence, I will be provided with a pre-sentence report and perhaps additional information about you and this case.",
+                            "If after reviewing that material, I am prepared to impose the promised sentence, then I will do so.",
+                            "If I change my mind and decide not to impose the promised sentence, I will tell you that and permit you to withdraw your guilty plea and go to trial.",
+                            "[Skip for Treatment Court Plea:] If, however, you violate a condition of the plea that I [have / will] set forth, I will not permit you to withdraw your plea and I will be at liberty to sentence you to [any authorized sentence or (specify)].",
+                            "Do you understand?"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "sex_offense_civil_commitment",
+                "title": "Sex Offense - Civil Commitment",
+                "content": [
+                    {
+                        "type": "note",
+                        "text": "A failure to advise a defendant who pleads guilty to a sex offense that he may be subject to the Sex Offender Management and Treatment Act (SOMTA), and the consequences thereof, does not necessarily render the guilty plea involuntary (see People v Harnett, 16 NY3d 200, 203 [2011]). Where, however, the consequences can include extended confinement, a court should advise a defendant who may be subject to the act of the possible consequences (see id. at 207)."
+                    },
+                    {
+                        "type": "dialogue",
+                        "speaker": "Court to Defendant",
+                        "lines": [
+                            "Before the conclusion of your sentence, you will be evaluated, and there may be court proceedings to determine (1) whether you suffer a mental abnormality that predisposes you to engage in illegal sexual conduct and that results in you having serious difficulty in controlling such conduct; and (2) if you do suffer a mental abnormality, whether that mental abnormality is so serious that it makes it likely that you will be a danger to others and will again commit a sex offense and that you are therefore a dangerous sex offender requiring confinement.",
+                            "If you are found to have a mental abnormality, you will be subject to strict and intensive supervision.",
+                            "If you are found to have a mental abnormality, which makes you a dangerous sex offender requiring confinement, you will be committed to a secure treatment facility until such time as you are found not to be a dangerous sex offender requiring confinement.",
+                            "Do you understand?"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "deportation",
+                "title": "Deportation",
+                "content": [
+                    {
+                        "type": "note",
+                        "text": "Defense counsel must give appropriate advice on a deportation consequence of a plea (see Padilla v Kentucky, 559 US 356 [2010])."
+                    },
+                    {
+                        "type": "dialogue",
+                        "speaker": "Court to Defendant",
+                        "lines": [
+                            "[Counsel, have you fulfilled your Padilla obligations, if any?] Do you understand that if you are not a United States citizen, your plea of guilty may subject you to deportation, exclusion from the United States, and denial of naturalization?",
+                            "Do you understand that neither your attorney, nor I, nor anyone else can guarantee that you will not suffer these immigration consequences?",
+                            "If you suffer any of these immigration consequences, in whole or in part, because of this plea of guilty, you will not be permitted to have the plea set aside.",
+                            "So, if you plead guilty, it must be because you are guilty and you are receiving a benefit in the plea agreement.",
+                            "Do you understand?",
+                            "Do you, therefore, wish to plead guilty, regardless of whether the plea in whole or in part results in immigration consequences?"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "right_to_vote",
+                "title": "Right to Vote",
+                "content": [
+                    {
+                        "type": "note",
+                        "text": "Effective September 2, 2021, pursuant to CPL 220.50(8), prior to accepting a defendant's plea of guilty to a count of an indictment or a superior court information charging a felony offense, the court must advise the defendant on the record as follows:"
+                    },
+                    {
+                        "type": "conditional_dialogue",
+                        "condition": "If the defendant is being sentenced to imprisonment:",
+                        "dialogue": {
+                            "speaker": "Court to Defendant",
+                            "lines": ["Do you understand that a conviction of a felony will result in your loss of the right to vote while you are serving the felony sentence in a correctional facility and the right to vote will be restored upon your release?"]
+                        }
+                    },
+                    {
+                        "type": "conditional_dialogue",
+                        "condition": "If the defendant is NOT being sentenced to imprisonment:",
+                        "dialogue": {
+                            "speaker": "Court to Defendant",
+                            "lines": [
+                                "A defendant who is convicted of a felony loses the right to vote while serving a felony sentence in a correctional facility and the right to vote is restored upon the defendant’s release.",
+                                "[If you abide by the terms of this plea,] you will not be sentenced to imprisonment and will not therefore lose your right to vote."
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "sex_offense_registration",
+                "title": "Sex Offense Registration",
+                "content": [
+                    {
+                        "type": "note",
+                        "text": "A court may, but is not normally required to, normally advise the defendant of the sex offense registration requirements; but, the defendant’s ignorance of same may in a rare case warrant permitting withdrawal of the plea (see People v Gravino, 14 NY3d 546 [2010])."
+                    },
+                    {
+                        "type": "dialogue",
+                        "speaker": "Court to Defendant",
+                        "lines": [
+                            "By virtue of this conviction, you will be required to register as a sex offender, and the period of registration will be at least 20 years and, depending on what level or type of offender you are determined to be, the period may be life.",
+                            "Do you understand?"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "sex_offense_state_prison",
+        "title": "SEX OFFENSE WITH STATE PRISON",
+        "content": [
+            {
+                "type": "explanation",
+                "title": "SOMTA Warning (People v Donnino)",
+                "points": [
+                    "Near the end of your sentence, you will be evaluated, and there may be court proceedings to determine, first, whether you suffer a mental abnormality [that predisposes you to engaging in illegal sexual conduct and that results in you having serious difficulty controlling such conduct];",
+                    "and, if so, whether the mental abnormality is so serious [that it makes it likely that you will be a danger to others and will again commit a sex offense and] that you are therefore a dangerous sex offender requiring confinement.",
+                    "If you are found to have a mental abnormality, you will be subject to strict and intensive supervision.",
+                    "If you are found to have a mental abnormality which makes you a dangerous sex offender requiring confinement, you will be committed to a secure treatment facility until such time as you are found not to be a dangerous sex offender requiring confinement."
+                ]
+            },
+            {
+                "type": "dialogue",
+                "speaker": "Court to Defendant",
+                "lines": ["Do you understand?"]
+            }
+        ]
+    },
+    {
+        "id": "waiver_of_discovery",
+        "title": "Waiver of Discovery",
+        "content": [
+            {
+                "type": "dialogue",
+                "speaker": "Court to Defendant",
+                "lines": [
+                    "(1)\t Has your attorney advised you of your right to discovery?",
+                    "(2)\t Do you understand that the right to discovery means you are entitled to all items and information that relate to the subject matter of your case that are in the control of the prosecution or of the police?",
+                    "(4)\t Do you understand that the prosecution did not condition this plea offer on your waiver of discovery?",
+                    "(5)\t Do you understand that by taking this plea you will not receive any [further] discovery?"
+                ]
+            },
+            {
+                "type": "note",
+                "text": "[Note: If the defendant is accepting a plea offer which included a deadline imposed by the prosecutor or the court and the discovery has not yet been completed, add the following:]"
+            },
+            {
+                "type": "dialogue",
+                "speaker": "Court to Defendant",
+                "lines": [
+                    "Do you understand that if you did not plead guilty today, the discovery that you have not yet received that is now in the possession, custody or control of the prosecution would have to be given to you in not less than:",
+                    "Select appropriate alternative:",
+                    "three [if the defendant is charged in a felony complaint]",
+                    "seven [if the defendant is charged in any other accusatory instrument]",
+                    "calendar days before the expiration date of the plea offer [or the deadline imposed by the court for acceptance of the guilty plea offer]."
+                ]
+            }
+        ]
+    },
+    {
+        "id": "conditions_of_release",
+        "title": "CONDITIONS OF RELEASE BEFORE SENTENCE",
+        "content": [
+            {
+                "type": "explanation",
+                "title": "There are conditions that you must comply with between now and the time of sentence.",
+                "points": [
+                    "1. You must meet with the Probation Officer assigned to prepare your pre-sentence report. [You must not minimize or deny guilt during your interview, and you must tell the truth.]",
+                    "2. You must return to court when required. [Optional: If you fail to return to court when required, I will be permitted to sentence you in your absence (issue a warrant for your arrest, and upon your arrest the sentence will be executed.)]",
+                    "3. You must not commit any offense [or unlawfully possess or use any drug] between now and the time of sentence. You will be in violation of this last condition if, after you are provided an opportunity to be heard, I find, based upon an accusatory instrument, or evidence before a Grand Jury, [or a drug test,] or such other evidence as I deem appropriate, that there is probable cause and otherwise a legitimate basis to believe you committed an offense [or unlawfully possessed or used a drug].",
+                    "4. Specify any special condition, e.g.: (a) You must successfully complete an alcohol and/or drug treatment program. (b) You must have a full-time job or be in school full time. (c) You must successfully fulfill the terms of the cooperation agreement."
+                ]
+            },
+            {
+                "type": "dialogue",
+                "speaker": "Court to Defendant",
+                "lines": [
+                    "Do you understand each of those conditions?",
+                    "[Skip this page for Treatment Court Pleas:] If you fail to comply with any one or more of those conditions, I will not be bound by the sentence commitment, I will not permit you to withdraw your plea, and I will be at liberty to sentence you to [(specify); e.g.: any authorized sentence, including a sentence of imprisonment up to and including (specify)]. Do you understand?",
+                    "If it comes to pass that I impose a different sentence than the one I have committed to, your waiver of the right to appeal will apply to that sentence as well. Do you understand?"
+                ]
+            },
+            {
+                "type": "note",
+                "text": "If the alternate commitment includes a determinate sentence of imprisonment, the defendant must also be advised of the post-release supervision period (see People v Catu, 4 NY3d 242 [2005]). However, a court may, but is not required to, advise a defendant of the consequences of a violation of post-release supervision (see People v Monk, 21 NY3d 27 [2013])."
+            },
+            {
+                "type": "dialogue",
+                "speaker": "Court to Defendant",
+                "lines": [
+                    "If it comes to pass that the different sentence is a determinate sentence of imprisonment, that sentence will be followed by a period of post-release supervision of (specify) years.",
+                    "[Post release supervision requires that you be subject to the supervision of a parole officer and that you adhere to certain conditions. A violation of a condition of post-release supervision can result in re-incarceration up to the balance of the remaining period of post-release supervision.]",
+                    "Do you understand?"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "voluntariness",
+        "title": "VOLUNTARINESS",
+        "content": [
+            {
+                "type": "dialogue",
+                "speaker": "Court to Defendant",
+                "lines": [
+                    "Other than the promised sentence, has anyone made any other promise to get you to plead guilty?",
+                    "Has anyone threatened you, or forced you, or pressured you to plead guilty against your will?",
+                    "Have I, or your lawyer, or anyone else, said anything to you to have you plead guilty against your will?",
+                    "Are you therefore pleading guilty voluntarily, of your own free will and choice?"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "factual_allocution",
+        "title": "FACTUAL ALLOUCTION BY THE PEOPLE",
+        "content": [
+            {
+                "type": "dialogue",
+                "speaker": "Court to the People",
+                "lines": ["Would the People like to conduct a factual allocution?"]
+            }
+        ]
+    },
+    {
+        "id": "conclusion",
+        "title": "CONCLUSION",
+        "content": [
+            {
+                "type": "dialogue",
+                "speaker": "Court to Defendant",
+                "lines": [
+                    "Last question, do you understand that if you are ever convicted of another crime in the future, this conviction may be used against you to impose additional or different punishment for that new crime?",
+                    "So, as to [crime of conviction] how do you plead, guilty or not guilty?"
+                ]
+            },
+            {
+                "type": "statement",
+                "text": "The court finds that the defendant's plea is knowing, intelligent and voluntary and, accordingly, accepts the plea and enters it upon the record."
+            }
+        ]
+    },
+    {
+        "id": "predicate_felony_arraignment",
+        "title": "ARRAIGNMENT OF THE DEFENDANT ON A PREDICATE FELONY STATEMENT",
+        "is_required": true,
+        "content": [
+            {
+                "type": "dialogue",
+                "speaker": "Court to Defendant",
+                "lines": [
+                    "The District Attorney has filed a statement specifying that by judgment entered in the (specify) Court, (specify) County, on (specify), you were convicted of (specify).",
+                    "Have you seen and discussed the statement with your lawyer?",
+                    "Under the law, you may admit that you are the person named in that statement who was convicted of that felony, or you may deny that allegation, or any allegation set forth in that statement, or you may controvert the statement on the ground that the previous conviction was unconstitutionally obtained.",
+                    "Do you understand?",
+                    "Do you wish to deny any allegation in the statement or to controvert the statement?",
+                    "Do you admit that you are the person named in that statement who was convicted of that felony?"
+                ]
+            },
+            {
+                "type": "statement",
+                "text": "Based on defendant's admission and the sufficiency of the uncontroverted allegations in the statement, the court finds that the defendant has been subject to (a/two) predicate (violent) felony conviction(s)."
+            }
+        ]
+    }
+  ],
+  "endnotes": []
+}

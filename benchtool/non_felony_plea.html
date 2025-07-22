@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abbreviated Non-Felony Plea Colloquy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Lora', serif; background-color: #f8f9fa; }
+        .live-focus:hover { transform: scale(1.02); color: #1e293b; }
+        .footnote-ref a { text-decoration: none; color: #3b82f6; }
+        sup { vertical-align: super; font-size: 0.75em; }
+        .footnote-backref { text-decoration: none; }
+        .tool-section { padding-top: 4rem; margin-top: -4rem; }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <div class="container mx-auto max-w-5xl my-12 px-4">
+        
+        <header class="text-center mb-8">
+            <h1 class="text-4xl md:text-5xl font-bold text-slate-800">Abbreviated Non-Felony Plea</h1>
+            <p class="text-lg text-slate-500 mt-2">A condensed plea colloquy for high-volume non-felony offenses.</p>
+        </header>
+
+        <section id="introduction-abbrev" class="tool-section">
+            <div class="bg-white rounded-xl shadow-lg border border-slate-300 mb-8 p-8 md:p-10">
+                <h2 class="text-3xl font-semibold text-slate-700 border-b-2 border-slate-200 pb-4 mb-6">Introduction</h2>
+                <blockquote class="bg-blue-50 border-l-4 border-blue-400 text-blue-900 text-lg p-6 rounded-r-lg live-focus">
+                    <strong>Note:</strong> In recognition of the high volume of pleas to non-felony offenses which may be required to be taken on a given day in a local criminal court, the following questions extracted from the recommended plea colloquy provide, in the discretion of the court, a shorter, albeit sufficient, plea colloquy. However, even for a non-felony offense, the expanded colloquy or parts thereof may be appropriate. Sentences in brackets are recommended but not required by law.
+                </blockquote>
+            </div>
+        </section>
+
+        <section id="colloquy-questions-abbrev" class="tool-section">
+            <div class="bg-white rounded-xl shadow-lg border border-slate-300 mb-8 p-8 md:p-10 text-lg leading-relaxed space-y-6">
+                <h2 class="text-3xl font-semibold text-slate-700 border-b-2 border-slate-200 pb-4 mb-6">Colloquy Questions</h2>
+                <p class="live-focus">Have you spoken with your lawyer about your case, about pleading guilty and its consequences? [Are you satisfied with the services of your lawyer?]</p>
+                <p class="live-focus">[The allegations of ( name of crime ) are ( specify ). Is that true?]</p>
+                <p class="live-focus">Do you plead guilty to ( specify name of offense, and if so, and not already on the record, the court may add: "which is in satisfaction of (specify the more serious charge )?</p>
+                <p class="live-focus">Do you understand that the sentence will be: ( specify )?</p>
+                <p class="live-focus">Do you understand that by pleading guilty, you waive your right to a trial [by jury] where you would have the right to confront and cross-examine witnesses and to remain silent and not to incriminate yourself? <sup class="footnote-ref"><a href="#fn2-abbrev" id="fnref2-abbrev">2</a></sup></p>
+                <p class="live-focus">As applicable : (If you are not a citizen of the United States) [D]o you wish to plead guilty, regardless of whether the plea in whole or in part results in your deportation, exclusion from the United States or denial of naturalization?</p>
+                <p class="live-focus">Are you pleading guilty voluntarily, of your own free will and choice? The plea is acceptable to the Court.</p>
+            </div>
+        </section>
+
+        <section id="footnotes-abbrev" class="tool-section">
+            <div class="bg-white rounded-xl shadow-lg border border-slate-300 mt-12 p-8 md:p-10">
+                <h2 class="text-3xl font-semibold text-slate-700 border-b-2 border-slate-200 pb-4 mb-6">Footnotes</h2>
+                <ol class="list-decimal pl-5 text-base text-slate-600 space-y-4">
+                    <li id="fn1-abbrev">
+                        See <em>People v Conceicao, [Perez], [Sanchez], 26 NY3d 375 (2015)</em>; <em>People v Pellegrino, 26 NY3d 1063 (2015)</em>; <em>People v Sougou, [Thompson], 26 NY3d 1052 (2015)</em> ( These cases indicate that the record should show that the defendant is actively represented by an attorney, that the defendant had a fair opportunity to consult with his lawyer about the plea and its consequences, and, if so, that the plea is in satisfaction of a more serious charge ). <a href="#fnref1-abbrev" class="footnote-backref" title="Jump back to footnote 1 in the text">↩</a>
+                    </li>
+                    <li id="fn2-abbrev">
+                        The specification of the rights included within the waiver of the right to a trial are derived from <em>Boykin v. Alabama , 395 U.S. 238 (1969)</em>. The Court of Appeals has held that the failure to recite those rights in haec verba will not render the plea invalid if "record as a whole affirmatively shows that the defendant intentionally relinquished those rights." See cases cited in note 1. Needless to add, it is best to advise the defendant expressly of the rights waived both for the defendant's benefit and to avoid necessitating an appellate court having to search the record to determine whether the defendant somehow intentionally waive those rights. <a href="#fnref2-abbrev" class="footnote-backref" title="Jump back to footnote 2 in the text">↩</a>
+                    </li>
+                </ol>
+            </div>
+        </section>
+    </div>
+
+    <!-- Load universal modules -->
+    <script src="./statute_reference.js"></script>
+    <script src="./ai_coach.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            if (window.aiCoach) {
+                aiCoach.updateContext('legal');
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOP Arraignment Tool - Local Judicial Bench</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Lora', serif; background: #f8fafc; color: #222; }
+        .header { background: #1e293b; color: #fff; padding: 2rem 1rem 1rem 1rem; border-radius: 0 0 1.5rem 1.5rem; box-shadow: 0 2px 8px #0001; }
+        .container { max-width: 700px; margin: 2rem auto; background: #fff; border-radius: 1.5rem; box-shadow: 0 2px 8px #0001; padding: 2rem; }
+        .card { background: #f1f5f9; border-radius: 1rem; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 4px #0001; }
+        .offline { font-size: 0.95rem; color: #64748b; margin-bottom: 1rem; }
+        h1, h2 { font-family: 'Lora', serif; }
+        .btn { background: #1e293b; color: #fff; border: none; border-radius: 0.5rem; padding: 0.75rem 1.5rem; font-size: 1rem; cursor: pointer; transition: background 0.2s; }
+        .btn:hover { background: #334155; }
+        label { font-weight: 600; }
+        input, select, textarea { width: 100%; padding: 0.5rem; border-radius: 0.5rem; border: 1px solid #cbd5e1; margin-bottom: 1rem; font-size: 1rem; }
+        .result { background: #e0e7ef; border-radius: 0.75rem; padding: 1rem; margin-top: 1rem; }
+        .header, h1, h2 { text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="header" style="text-align:center;">
+        <h1>VOP Arraignment Tool</h1>
+        <div class="offline"><i class="fa-solid fa-plug-circle-xmark"></i> Local/Offline Judicial Toolkit</div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <h2>Arraignment Details</h2>
+            <form id="vopForm">
+                <label for="defendant">Defendant Name</label>
+                <input type="text" id="defendant" name="defendant" required>
+                <label for="charge">Charge/Violation</label>
+                <input type="text" id="charge" name="charge" required>
+                <label for="facts">Summary of Alleged Violation</label>
+                <textarea id="facts" name="facts" rows="3" required></textarea>
+                <button type="submit" class="btn">Generate Arraignment Statement</button>
+            </form>
+            <div id="result" class="result" style="display:none;"></div>
+        </div>
+        <div class="card">
+            <h2>Legal Reference</h2>
+            <ul>
+                <li>NY CPL § 410.70 - Violation of Probation: Arraignment and Hearing</li>
+                <li>NY CPL § 410.30 - Declaration of Delinquency</li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        document.getElementById('vopForm').onsubmit = function(e) {
+            e.preventDefault();
+            const defendant = document.getElementById('defendant').value.trim();
+            const charge = document.getElementById('charge').value.trim();
+            const facts = document.getElementById('facts').value.trim();
+            let statement = `<strong>Arraignment Statement:</strong><br><br>`;
+            statement += `The defendant, <b>${defendant}</b>, is before the court for an alleged violation of probation: <b>${charge}</b>.<br><br>`;
+            statement += `Summary of Alleged Violation:<br>${facts}`;
+            document.getElementById('result').innerHTML = statement;
+            document.getElementById('result').style.display = 'block';
+        };
+    </script>
+</body>
+</html>

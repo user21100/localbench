@@ -1,0 +1,455 @@
+{
+  "summary": {
+    "total_offenses_validated": 20,
+    "valid_offenses": 20,
+    "invalid_offenses": 0,
+    "success_rate": 100.0,
+    "timestamp": "2025-07-01T14:51:15.796573"
+  },
+  "validation_results": [
+    {
+      "offense": {
+        "name": "Criminal solicitation in the fourth degree",
+        "section": "PL \u00a7 100.05",
+        "class": "B",
+        "vfo": false,
+        "statuteLawId": "PEN",
+        "statuteLocationId": "100.05"
+      },
+      "valid": true,
+      "statute_data": {
+        "title": "Criminal solicitation in the fourth degree",
+        "text": "\u00a7 100.05 Criminal solicitation in the fourth degree.\\n  A person is guilty of criminal solicitation in the fourth degree when:\\n  1. with intent that another person engage in conduct constituting a\\nfelony, he solicits, requests, commands, importunes or otherwise\\nattempts to cause such other person to engage in such conduct; or\\n  2. being over eighteen years of age, with intent that another person\\nunder sixteen years of age engage in conduct that would constitute a\\ncrime, he solicits, requests, commands, importunes or otherwise attempts\\nto cause such other person to engage in such conduct.\\n  Criminal solicitation in the fourth degree is a class A misdemeanor.\\n",
+        "active_date": "2014-09-22",
+        "law_id": "PEN",
+        "location_id": "100.05"
+      },
+      "ai_validation": {
+        "error": "404 Client Error: Not Found for url: https://platforms-cc-legal-ai-583372391636.us-central1.run.app/legal-ai-enhanced"
+      },
+      "timestamp": "2025-07-01T14:50:27.099532"
+    },
+    {
+      "offense": {
+        "name": "Criminal solicitation in the third degree",
+        "section": "PL \u00a7 100.08",
+        "class": "B",
+        "vfo": false,
+        "statuteLawId": "PEN",
+        "statuteLocationId": "100.08"
+      },
+      "valid": true,
+      "statute_data": {
+        "title": "Criminal solicitation in the third degree",
+        "text": "\u00a7 100.08 Criminal solicitation in the third degree.\\n  A person is guilty of criminal solicitation in the third degree when,\\nbeing over eighteen years of age, with intent that another person under\\nsixteen years of age engage in conduct that would constitute a felony,\\nhe solicits, requests, commands, importunes or otherwise attempts to\\ncause such other person to engage in such conduct.\\n  Criminal solicitation in the third degree is a class E felony.\\n",
+        "active_date": "2014-09-22",
+        "law_id": "PEN",
+        "location_id": "100.08"
+      },
+      "ai_validation": {
+        "error": "404 Client Error: Not Found for url: https://platforms-cc-legal-ai-583372391636.us-central1.run.app/legal-ai-enhanced"
+      },
+      "timestamp": "2025-07-01T14:50:29.701527"
+    },
+    {
+      "offense": {
+        "name": "Criminal solicitation in the second degree",
+        "section": "PL \u00a7 100.10",
+        "class": "C",
+        "vfo": false,
+        "statuteLawId": "PEN",
+        "statuteLocationId": "100.10"
+      },
+      "valid": true,
+      "statute_data": {
+        "title": "Criminal solicitation in the second degree",
+        "text": "\u00a7 100.10 Criminal solicitation in the second degree.\\n  A person is guilty of criminal solicitation in the second degree when,\\nwith intent that another person engage in conduct constituting a class A\\nfelony, he solicits, requests, commands, importunes or otherwise\\nattempts to cause such other person to engage in such conduct.\\n  Criminal solicitation in the second degree is a class D felony.\\n",
+        "active_date": "2014-09-22",
+        "law_id": "PEN",
+        "location_id": "100.10"
+      },
+      "ai_validation": {
+        "error": "404 Client Error: Not Found for url: https://platforms-cc-legal-ai-583372391636.us-central1.run.app/legal-ai-enhanced"
+      },
+      "timestamp": "2025-07-01T14:50:32.172779"
+    },
+    {
+      "offense": {
+        "name": "Criminal solicitation in the first degree",
+        "section": "PL \u00a7 100.13",
+        "class": "B",
+        "vfo": false,
+        "statuteLawId": "PEN",
+        "statuteLocationId": "100.13"
+      },
+      "valid": true,
+      "statute_data": {
+        "title": "Criminal solicitation in the first degree",
+        "text": "\u00a7 100.13 Criminal solicitation in the first degree.\\n  A person is guilty of criminal solicitation in the first degree when,\\nbeing over eighteen years of age, with intent that another person under\\nsixteen years of age engage in conduct that would constitute a class A\\nfelony, he solicits, requests, commands, importunes or otherwise\\nattempts to cause such other person to engage in such conduct.\\n  Criminal solicitation in the first degree is a class C felony.\\n",
+        "active_date": "2014-09-22",
+        "law_id": "PEN",
+        "location_id": "100.13"
+      },
+      "ai_validation": {
+        "error": "404 Client Error: Not Found for url: https://platforms-cc-legal-ai-583372391636.us-central1.run.app/legal-ai-enhanced"
+      },
+      "timestamp": "2025-07-01T14:50:34.897412"
+    },
+    {
+      "offense": {
+        "name": "Conspiracy in the sixth degree",
+        "section": "PL \u00a7 105.00",
+        "class": "A Misd",
+        "vfo": false,
+        "statuteLawId": "PEN",
+        "statuteLocationId": "105.00"
+      },
+      "valid": true,
+      "statute_data": {
+        "title": "Conspiracy in the sixth degree",
+        "text": "\u00a7 105.00 Conspiracy in the sixth degree.\\n  A person is guilty of conspiracy in the sixth degree when, with intent\\nthat conduct constituting a crime be performed, he agrees with one or\\nmore persons to engage in or cause the performance of such conduct.\\n  Conspiracy in the sixth degree is a class B misdemeanor.\\n",
+        "active_date": "2014-09-22",
+        "law_id": "PEN",
+        "location_id": "105.00"
+      },
+      "ai_validation": {
+        "error": "404 Client Error: Not Found for url: https://platforms-cc-legal-ai-583372391636.us-central1.run.app/legal-ai-enhanced"
+      },
+      "timestamp": "2025-07-01T14:50:37.331249"
+    },
+    {
+      "offense": {
+        "name": "Conspiracy in the fifth degree",
+        "section": "PL \u00a7 105.05",
+        "class": "B",
+        "vfo": false,
+        "statuteLawId": "PEN",
+        "statuteLocationId": "105.05"
+      },
+      "valid": true,
+      "statute_data": {
+        "title": "Conspiracy in the fifth degree",
+        "text": "\u00a7 105.05 Conspiracy in the fifth degree.\\n  A person is guilty of conspiracy in the fifth degree when, with intent\\nthat conduct constituting:\\n  1. a felony be performed, he agrees with one or more persons to engage\\nin or cause the performance of such conduct; or\\n  2. a crime be performed, he, being over eighteen years of age, agrees\\nwith one or more persons under sixteen years of age to engage in or\\ncause the performance of such conduct.\\n  Conspiracy in the fifth degree is a class A misdemeanor.\\n",
+        "active_date": "2014-09-22",
+        "law_id": "PEN",
+        "location_id": "105.05"
+      },
+      "ai_validation": {
+        "error": "404 Client Error: Not Found for url: https://platforms-cc-legal-ai-583372391636.us-central1.run.app/legal-ai-enhanced"
+      },
+      "timestamp": "2025-07-01T14:50:39.758103"
+    },
+    {
+      "offense": {
+        "name": "Conspiracy in the fourth degree",
+        "section": "PL \u00a7 105.10",
+        "class": "B",
+        "vfo": false,
+        "statuteLawId": "PEN",
+        "statuteLocationId": "105.10"
+      },
+      "valid": true,
+      "statute_data": {
+        "title": "Conspiracy in the fourth degree",
+        "text": "\u00a7 105.10 Conspiracy in the fourth degree.\\n  A person is guilty of conspiracy in the fourth degree when, with\\nintent that conduct constituting:\\n  1. a class B or class C felony be performed, he or she agrees with one\\nor more persons to engage in or cause the performance of such conduct;\\nor\\n  2. a felony be performed, he or she, being over eighteen years of age,\\nagrees with one or more persons under sixteen years of age to engage in\\nor cause the performance of such conduct; or\\n  3. the felony of money laundering in the third degree as defined in\\nsection 470.10 of this chapter, be performed, he or she agrees with one\\nor more persons to engage in or cause the performance of such conduct.\\n  Conspiracy in the fourth degree is a class E felony.\\n",
+        "active_date": "2014-09-22",
+        "law_id": "PEN",
+        "location_id": "105.10"
+      },
+      "ai_validation": {
+        "error": "404 Client Error: Not Found for url: https://platforms-cc-legal-ai-583372391636.us-central1.run.app/legal-ai-enhanced"
+      },
+      "timestamp": "2025-07-01T14:50:42.227691"
+    },
+    {
+      "offense": {
+        "name": "Conspiracy in the third degree",
+        "section": "PL \u00a7 105.13",
+        "class": "B",
+        "vfo": false,
+        "statuteLawId": "PEN",
+        "statuteLocationId": "105.13"
+      },
+      "valid": true,
+      "statute_data": {
+        "title": "Conspiracy in the third degree",
+        "text": "\u00a7 105.13 Conspiracy in the third degree.\\n  A person is guilty of conspiracy in the third degree when, with intent\\nthat conduct constituting a class B or a class C felony be performed,\\nhe, being over eighteen years of age, agrees with one or more persons\\nunder sixteen years of age to engage in or cause the performance of such\\nconduct.\\n  Conspiracy in the third degree is a class D felony.\\n",
+        "active_date": "2014-09-22",
+        "law_id": "PEN",
+        "location_id": "105.13"
+      },
+      "ai_validation": {
+        "error": "404 Client Error: Not Found for url: https://platforms-cc-legal-ai-583372391636.us-central1.run.app/legal-ai-enhanced"
+      },
+      "timestamp": "2025-07-01T14:50:44.680902"
+    },
+    {
+      "offense": {
+        "name": "Conspiracy in the second degree",
+        "section": "PL \u00a7 105.15",
+        "class": "B",
+        "vfo": false,
+        "statuteLawId": "PEN",
+        "statuteLocationId": "105.15"
+      },
+      "valid": true,
+      "statute_data": {
+        "title": "Conspiracy in the second degree",
+        "text": "\u00a7 105.15 Conspiracy in the second degree.\\n  A person is guilty of conspiracy in the second degree when, with\\nintent that conduct constituting a class A felony be performed, he\\nagrees with one or more persons to engage in or cause the performance of\\nsuch conduct.\\n  Conspiracy in the second degree is a class B felony.\\n",
+        "active_date": "2014-09-22",
+        "law_id": "PEN",
+        "location_id": "105.15"
+      },
+      "ai_validation": {
+        "error": "404 Client Error: Not Found for url: https://platforms-cc-legal-ai-583372391636.us-central1.run.app/legal-ai-enhanced"
+      },
+      "timestamp": "2025-07-01T14:50:47.484652"
+    },
+    {
+      "offense": {
+        "name": "Conspiracy in the first degree",
+        "section": "PL \u00a7 105.17",
+        "class": "A-I",
+        "vfo": false,
+        "statuteLawId": "PEN",
+        "statuteLocationId": "105.17"
+      },
+      "valid": true,
+      "statute_data": {
+        "title": "Conspiracy in the first degree",
+        "text": "\u00a7 105.17 Conspiracy in the first degree.\\n  A person is guilty of conspiracy in the first degree when, with intent\\nthat conduct constituting a class A felony be performed, he, being over\\neighteen years of age, agrees with one or more persons under sixteen\\nyears of age to engage in or cause the performance of such conduct.\\n  Conspiracy in the first degree is a class A-I felony.\\n",
+        "active_date": "2014-09-22",
+        "law_id": "PEN",
+        "location_id": "105.17"
+      },
+      "ai_validation": {
+        "error": "404 Client Error: Not Found for url: https://platforms-cc-legal-ai-583372391636.us-central1.run.app/legal-ai-enhanced"
+      },
+      "timestamp": "2025-07-01T14:50:50.049777"
+    },
+    {
+      "offense": {
+        "name": "Criminal facilitation in the fourth degree",
+        "section": "PL \u00a7 115.00",
+        "class": "B",
+        "vfo": false,
+        "statuteLawId": "PEN",
+        "statuteLocationId": "115.00"
+      },
+      "valid": true,
+      "statute_data": {
+        "title": "Criminal facilitation in the fourth degree",
+        "text": "\u00a7 115.00 Criminal facilitation in the fourth degree.\\n  A person is guilty of criminal facilitation in the fourth degree when,\\nbelieving it probable that he is rendering aid:\\n  1. to a person who intends to commit a crime, he engages in conduct\\nwhich provides such person with means or opportunity for the commission\\nthereof and which in fact aids such person to commit a felony; or\\n  2. to a person under sixteen years of age who intends to engage in\\nconduct which would constitute a crime, he, being over eighteen years of\\nage, engages in conduct which provides such person with means or\\nopportunity for the commission thereof and which in fact aids such\\nperson to commit a crime.\\n  Criminal facilitation in the fourth degree is a class A misdemeanor.\\n",
+        "active_date": "2014-09-22",
+        "law_id": "PEN",
+        "location_id": "115.00"
+      },
+      "ai_validation": {
+        "error": "404 Client Error: Not Found for url: https://platforms-cc-legal-ai-583372391636.us-central1.run.app/legal-ai-enhanced"
+      },
+      "timestamp": "2025-07-01T14:50:53.280496"
+    },
+    {
+      "offense": {
+        "name": "Criminal facilitation in the third degree",
+        "section": "PL \u00a7 115.01",
+        "class": "B",
+        "vfo": false,
+        "statuteLawId": "PEN",
+        "statuteLocationId": "115.01"
+      },
+      "valid": true,
+      "statute_data": {
+        "title": "Criminal facilitation in the third degree",
+        "text": "\u00a7 115.01 Criminal facilitation in the third degree.\\n  A person guilty of criminal facilitation in the third degree, when\\nbelieving it probable that he is rendering aid to a person under sixteen\\nyears of age who intends to engage in conduct that would constitute a\\nfelony, he, being over eighteen years of age, engages in conduct which\\nprovides such person with means or opportunity for the commission\\nthereof and which in fact aids such person to commit a felony.\\n  Criminal facilitation in the third degree is a class E felony.\\n",
+        "active_date": "2014-09-22",
+        "law_id": "PEN",
+        "location_id": "115.01"
+      },
+      "ai_validation": {
+        "error": "404 Client Error: Not Found for url: https://platforms-cc-legal-ai-583372391636.us-central1.run.app/legal-ai-enhanced"
+      },
+      "timestamp": "2025-07-01T14:50:55.718316"
+    },
+    {
+      "offense": {
+        "name": "Criminal facilitation in the second degree",
+        "section": "PL \u00a7 115.05",
+        "class": "B",
+        "vfo": false,
+        "statuteLawId": "PEN",
+        "statuteLocationId": "115.05"
+      },
+      "valid": true,
+      "statute_data": {
+        "title": "Criminal facilitation in the second degree",
+        "text": "\u00a7 115.05 Criminal facilitation in the second degree.\\n  A person is guilty of criminal facilitation in the second degree when,\\nbelieving it probable that he is rendering aid to a person who intends\\nto commit a class A felony, he engages in conduct which provides such\\nperson with means or opportunity for the commission thereof and which in\\nfact aids such person to commit such class A felony.\\n  Criminal facilitation in the second degree is a class C felony.\\n",
+        "active_date": "2014-09-22",
+        "law_id": "PEN",
+        "location_id": "115.05"
+      },
+      "ai_validation": {
+        "error": "404 Client Error: Not Found for url: https://platforms-cc-legal-ai-583372391636.us-central1.run.app/legal-ai-enhanced"
+      },
+      "timestamp": "2025-07-01T14:50:58.192995"
+    },
+    {
+      "offense": {
+        "name": "Criminal facilitation in the first degree",
+        "section": "PL \u00a7 115.08",
+        "class": "B",
+        "vfo": false,
+        "statuteLawId": "PEN",
+        "statuteLocationId": "115.08"
+      },
+      "valid": true,
+      "statute_data": {
+        "title": "Criminal facilitation in the first degree",
+        "text": "\u00a7 115.08 Criminal facilitation in the first degree.\\n  A person is guilty of criminal facilitation in the first degree when,\\nbelieving it probable that he is rendering aid to a person under sixteen\\nyears of age who intends to engage in conduct that would constitute a\\nclass A felony, he, being over eighteen years of age, engages in conduct\\nwhich provides such person with means or opportunity for the commission\\nthereof and which in fact aids such person to commit such a class A\\nfelony.\\n  Criminal facilitation in the first degree is a class B felony.\\n",
+        "active_date": "2014-09-22",
+        "law_id": "PEN",
+        "location_id": "115.08"
+      },
+      "ai_validation": {
+        "error": "404 Client Error: Not Found for url: https://platforms-cc-legal-ai-583372391636.us-central1.run.app/legal-ai-enhanced"
+      },
+      "timestamp": "2025-07-01T14:51:00.637309"
+    },
+    {
+      "offense": {
+        "name": "Assault in the third degree",
+        "section": "PL \u00a7 120.00",
+        "class": "A Misd",
+        "vfo": false,
+        "statuteLawId": "PEN",
+        "statuteLocationId": "120.00"
+      },
+      "valid": true,
+      "statute_data": {
+        "title": "Assault in the third degree",
+        "text": "\u00a7 120.00 Assault in the third degree.\\n  A person is guilty of assault in the third degree when:\\n  1. With intent to cause physical injury to another person, he causes\\nsuch injury to such person or to a third person; or\\n  2. He recklessly causes physical injury to another person; or\\n  3. With criminal negligence, he causes physical injury to another\\nperson by means of a deadly weapon or a dangerous instrument.\\n  Assault in the third degree is a class A misdemeanor.\\n",
+        "active_date": "2014-09-22",
+        "law_id": "PEN",
+        "location_id": "120.00"
+      },
+      "ai_validation": {
+        "error": "404 Client Error: Not Found for url: https://platforms-cc-legal-ai-583372391636.us-central1.run.app/legal-ai-enhanced"
+      },
+      "timestamp": "2025-07-01T14:51:03.108518"
+    },
+    {
+      "offense": {
+        "name": "Vehicular assault in the second degree",
+        "section": "PL \u00a7 120.03",
+        "class": "B",
+        "vfo": true,
+        "statuteLawId": "PEN",
+        "statuteLocationId": "120.03",
+        "isDUIOOffense": true,
+        "isDrugOffense": true
+      },
+      "valid": true,
+      "statute_data": {
+        "title": "Vehicular assault in the second degree",
+        "text": "\u00a7 120.03 Vehicular assault in the second degree.\\n  A person is guilty of vehicular assault in the second degree when he\\nor she causes serious physical injury to another person, and either:\\n  (1) operates a motor vehicle in violation of subdivision two, three,\\nfour or four-a of section eleven hundred ninety-two of the vehicle and\\ntraffic law or operates a vessel or public vessel in violation of\\nparagraph (b), (c), (d) or (e) of subdivision two of section\\nforty-nine-a of the navigation law, and as a result of such intoxication\\nor impairment by the use of a drug, or by the combined influence of\\ndrugs or of alcohol and any drug or drugs, operates such motor vehicle,\\nvessel or public vessel in a manner that causes such serious physical\\ninjury to such other person, or\\n  (2) operates a motor vehicle with a gross vehicle weight rating of\\nmore than eighteen thousand pounds which contains flammable gas,\\nradioactive materials or explosives in violation of subdivision one of\\nsection eleven hundred ninety-two of the vehicle and traffic law, and\\nsuch flammable gas, radioactive materials or explosives is the cause of\\nsuch serious physical injury, and as a result of such impairment by the\\nuse of alcohol, operates such motor vehicle in a manner that causes such\\nserious physical injury to such other person, or\\n  (3) operates a snowmobile in violation of paragraph (b), (c) or (d) of\\nsubdivision one of section 25.24 of the parks, recreation and historic\\npreservation law or operates an all terrain vehicle as defined in\\nparagraph (a) of subdivision one of section twenty-two hundred\\neighty-one of the vehicle and traffic law and in violation of\\nsubdivision two, three, four, or four-a of section eleven hundred\\nninety-two of the vehicle and traffic law, and as a result of such\\nintoxication or impairment by the use of a drug, or by the combined\\ninfluence of drugs or of alcohol and any drug or drugs, operates such\\nsnowmobile or all terrain vehicle in a manner that causes such serious\\nphysical injury to such other person.\\n  If it is established that the person operating such motor vehicle,\\nvessel, public vessel, snowmobile or all terrain vehicle caused such\\nserious physical injury while unlawfully intoxicated or impaired by the\\nuse of alcohol or a drug, then there shall be a rebuttable presumption\\nthat, as a result of such intoxication or impairment by the use of\\nalcohol or a drug, or by the combined influence of drugs or of alcohol\\nand any drug or drugs, such person operated the motor vehicle, vessel,\\npublic vessel, snowmobile or all terrain vehicle in a manner that caused\\nsuch serious physical injury, as required by this section.\\n  Vehicular assault in the second degree is a class E felony.\\n",
+        "active_date": "2014-09-22",
+        "law_id": "PEN",
+        "location_id": "120.03"
+      },
+      "ai_validation": {
+        "error": "404 Client Error: Not Found for url: https://platforms-cc-legal-ai-583372391636.us-central1.run.app/legal-ai-enhanced"
+      },
+      "timestamp": "2025-07-01T14:51:05.688565"
+    },
+    {
+      "offense": {
+        "name": "Vehicular assault in the first degree",
+        "section": "PL \u00a7 120.04",
+        "class": "B",
+        "vfo": true,
+        "statuteLawId": "PEN",
+        "statuteLocationId": "120.04",
+        "isDUIOOffense": true,
+        "isDrugOffense": true
+      },
+      "valid": true,
+      "statute_data": {
+        "title": "Vehicular assault in the first degree",
+        "text": "\u00a7 120.04 Vehicular assault in the first degree.\\n  A person is guilty of vehicular assault in the first degree when he or\\nshe commits the crime of vehicular assault in the second degree as\\ndefined in section 120.03 of this article, and either:\\n  (1) commits such crime while operating a motor vehicle while such\\nperson has .18 of one per centum or more by weight of alcohol in such\\nperson's blood as shown by chemical analysis of such person's blood,\\nbreath, urine or saliva made pursuant to the provisions of section\\neleven hundred ninety-four of the vehicle and traffic law;\\n  (2) commits such crime while knowing or having reason to know that:\\n(a) his or her license or his or her privilege of operating a motor\\nvehicle in another state or his or her privilege of obtaining a license\\nto operate a motor vehicle in another state is suspended or revoked and\\nsuch suspension or revocation is based upon a conviction in such other\\nstate for an offense which would, if committed in this state, constitute\\na violation of any of the provisions of section eleven hundred\\nninety-two of the vehicle and traffic law; or (b) his or her license or\\nhis or her privilege of operating a motor vehicle in the state or his or\\nher privilege of obtaining a license issued by the commissioner of motor\\nvehicles is suspended or revoked and such suspension or revocation is\\nbased upon either a refusal to submit to a chemical test pursuant to\\nsection eleven hundred ninety-four of the vehicle and traffic law or\\nfollowing a conviction for a violation of any of the provisions of\\nsection eleven hundred ninety-two of the vehicle and traffic law;\\n  (3) has previously been convicted of violating any of the provisions\\nof section eleven hundred ninety-two of the vehicle and traffic law\\nwithin the preceding ten years, provided that, for the purposes of this\\nsubdivision, a conviction in any other state or jurisdiction for an\\noffense which, if committed in this state, would constitute a violation\\nof section eleven hundred ninety-two of the vehicle and traffic law,\\nshall be treated as a violation of such law;\\n  (4) causes serious physical injury to more than one other person;\\n  (5) has previously been convicted of violating any provision of this\\narticle or article one hundred twenty-five of this title involving the\\noperation of a motor vehicle, or was convicted in any other state or\\njurisdiction of an offense involving the operation of a motor vehicle\\nwhich, if committed in this state, would constitute a violation of this\\narticle or article one hundred twenty-five of this title;\\n  (6) commits such crime while operating a motor vehicle while a child\\nwho is fifteen years of age or less is a passenger in such motor vehicle\\nand causes serious physical injury to such child; or\\n  (7) commits such crime while operating a vessel in violation of\\nparagraph (e-1) of subdivision two of section forty-nine-a of the\\nnavigation law while a child who is fifteen years of age or less is a\\npassenger in such vessel and causes serious physical injury to such\\nchild.\\n  If it is established that the person operating such motor vehicle\\ncaused such serious physical injury or injuries while unlawfully\\nintoxicated or impaired by the use of alcohol or a drug, or by the\\ncombined influence of drugs or of alcohol and any drug or drugs, then\\nthere shall be a rebuttable presumption that, as a result of such\\nintoxication or impairment by the use of alcohol or a drug, or by the\\ncombined influence of drugs or of alcohol and any drug or drugs, such\\nperson operated the motor vehicle in a manner that caused such serious\\nphysical injury or injuries, as required by this section and section\\n120.03 of this article.\\n  Vehicular assault in the first degree is a class D felony.\\n",
+        "active_date": "2023-06-16",
+        "law_id": "PEN",
+        "location_id": "120.04"
+      },
+      "ai_validation": {
+        "error": "404 Client Error: Not Found for url: https://platforms-cc-legal-ai-583372391636.us-central1.run.app/legal-ai-enhanced"
+      },
+      "timestamp": "2025-07-01T14:51:08.128432"
+    },
+    {
+      "offense": {
+        "name": "Gang assault in the second degree",
+        "section": "PL \u00a7 120.06",
+        "class": "B",
+        "vfo": true,
+        "statuteLawId": "PEN",
+        "statuteLocationId": "120.06"
+      },
+      "valid": true,
+      "statute_data": {
+        "title": "Gang assault in the second degree",
+        "text": "\u00a7 120.06 Gang assault in the second degree.\\n  A person is guilty of gang assault in the second degree when, with\\nintent to cause physical injury to another person and when aided by two\\nor more other persons actually present, he causes serious physical\\ninjury to such person or to a third person.\\n  Gang assault in the second degree is a class C felony.\\n",
+        "active_date": "2014-09-22",
+        "law_id": "PEN",
+        "location_id": "120.06"
+      },
+      "ai_validation": {
+        "error": "404 Client Error: Not Found for url: https://platforms-cc-legal-ai-583372391636.us-central1.run.app/legal-ai-enhanced"
+      },
+      "timestamp": "2025-07-01T14:51:10.883376"
+    },
+    {
+      "offense": {
+        "name": "Gang assault in the first degree",
+        "section": "PL \u00a7 120.07",
+        "class": "B",
+        "vfo": true,
+        "statuteLawId": "PEN",
+        "statuteLocationId": "120.07"
+      },
+      "valid": true,
+      "statute_data": {
+        "title": "Gang assault in the first degree",
+        "text": "\u00a7 120.07 Gang assault in the first degree.\\n  A person is guilty of gang assault in the first degree when, with\\nintent to cause serious physical injury to another person and when aided\\nby two or more other persons actually present, he causes serious\\nphysical injury to such person or to a third person.\\n  Gang assault in the first degree is a class B felony.\\n",
+        "active_date": "2014-09-22",
+        "law_id": "PEN",
+        "location_id": "120.07"
+      },
+      "ai_validation": {
+        "error": "404 Client Error: Not Found for url: https://platforms-cc-legal-ai-583372391636.us-central1.run.app/legal-ai-enhanced"
+      },
+      "timestamp": "2025-07-01T14:51:13.329552"
+    },
+    {
+      "offense": {
+        "name": "Assault on a peace officer, police officer, firefighter or emergency medical services professional",
+        "section": "PL \u00a7 120.08",
+        "class": "C",
+        "vfo": true,
+        "statuteLawId": "PEN",
+        "statuteLocationId": "120.08"
+      },
+      "valid": true,
+      "statute_data": {
+        "title": "Assault on a peace officer, police officer, firefighter or emergency medical services professional",
+        "text": "\u00a7 120.08 Assault on a peace officer, police officer, firefighter or\\n           emergency medical services professional.\\n  A person is guilty of assault on a peace officer, police officer,\\nfirefighter or emergency medical services professional when, with intent\\nto prevent a peace officer, police officer, a firefighter, including a\\nfirefighter acting as a paramedic or emergency medical technician\\nadministering first aid in the course of performance of duty as such\\nfirefighter, or an emergency medical service paramedic or emergency\\nmedical service technician, from performing a lawful duty, he or she\\ncauses serious physical injury to such peace officer, police officer,\\nfirefighter, paramedic or technician.\\n  Assault on a peace officer, police officer, firefighter or emergency\\nmedical services professional is a class C felony.\\n",
+        "active_date": "2019-01-11",
+        "law_id": "PEN",
+        "location_id": "120.08"
+      },
+      "ai_validation": {
+        "error": "404 Client Error: Not Found for url: https://platforms-cc-legal-ai-583372391636.us-central1.run.app/legal-ai-enhanced"
+      },
+      "timestamp": "2025-07-01T14:51:15.796531"
+    }
+  ]
+}

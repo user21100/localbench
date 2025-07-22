@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fugitive Arraignment Tool - Local Judicial Bench</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Lora', serif; background: #f8fafc; color: #222; }
+        .header { background: #1e293b; color: #fff; padding: 2rem 1rem 1rem 1rem; border-radius: 0 0 1.5rem 1.5rem; box-shadow: 0 2px 8px #0001; }
+        .container { max-width: 700px; margin: 2rem auto; background: #fff; border-radius: 1.5rem; box-shadow: 0 2px 8px #0001; padding: 2rem; }
+        .card { background: #f1f5f9; border-radius: 1rem; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 4px #0001; }
+        .offline { font-size: 0.95rem; color: #64748b; margin-bottom: 1rem; }
+        h1, h2 { font-family: 'Lora', serif; }
+        .note { background: #e0e7ef; border-left: 4px solid #60a5fa; color: #1e293b; padding: 1rem; border-radius: 0.75rem; margin-bottom: 1rem; }
+        .footnotes { background: #f1f5f9; border-radius: 1rem; padding: 1.5rem; margin-top: 2rem; font-size: 1rem; color: #334155; }
+        .footnotes ol { margin-left: 1.5rem; }
+        .footnote-backref { text-decoration: none; }
+        .live-focus { color: #1e293b; }
+        .header, h1, h2 { text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="header" style="text-align:center;">
+        <h1>Fugitive Arraignment Tool</h1>
+        <div class="offline"><i class="fa-solid fa-plug-circle-xmark"></i> Local/Offline Judicial Toolkit</div>
+    </div>
+    <div class="container" id="arraignment-root">
+        <!-- Dynamic content will be rendered here -->
+    </div>
+    <script>
+    // Embed JSON directly for offline use
+    const FUGITIVE_COLLOQUY = {
+        "title": "FUGITIVE ARRAIGNMENT",
+        "legal_basis": "CPL art. 570",
+        "publication_date": "Published Aug. 2016",
+        "sections": [
+            {"id":"arraignment_script","title":"Arraignment Script","content":[{"type":"dialogue_group","speaker":"Court to the defendant","lines":["You are charged with being a fugitive from the State of (specify) for the commission, on or about (specify date), in that state, of the crime(s) of (specify).","Accordingly, the State of (specify) seeks to have you extradited, that is returned to that state to answer the charge(s).","In an extradition proceeding, [(you have the right to retain counsel or to have counsel appointed if you cannot afford counsel and) you have the right to] require a warrant for your extradition from the Governor of New York.","You also have the right to file a writ of habeas corpus and have a hearing to test the validity of your extradition on the grounds that you are not the person named in the fugitive complaint, or that you are not charged with a crime in (specify the state), or that you were not in (specify the state) at the time of the commission of the alleged crime(s). Do you understand?","In the alternative, you may waive further extradition proceedings and consent to be extradited. Do you understand?"]}]},
+            {"id":"counsel_procedure","title":"Procedure Regarding Counsel","content":[{"type":"note","text":"If the defendant is not represented by counsel, an adjournment should here be had for that purpose."},{"type":"instruction","text":"Once the defendant has counsel, it may be wise to repeat the foregoing and proceed as follows:"},{"type":"dialogue","speaker":"Court to the defendant","lines":["Have you discussed this matter with your attorney?","Do you wish to waive further extradition proceedings?"]}]},
+            {"id":"waiver_procedure","title":"Waiver Procedure","content":[{"type":"note","text":"If the answer is no, the court shall provide counsel a reasonable time to file a writ of habeas corpus challenging the legality of defendant’s arrest, etc. If the answer is yes, proceed as follows:"},{"type":"dialogue_group","speaker":"Court to the defendant","lines":["Has anyone threatened you, or forced you, or pressured you to waive extradition proceedings against your will?","Have I, or your lawyer, or anyone else said anything to you to have you do so against your will?","Are you therefore waiving extradition proceedings voluntarily, of your own free will and choice?"]},{"type":"statement","speaker":"Court","text":"The Court finds the waiver to have been entered intelligently, knowingly and voluntarily. Please execute the waiver forms."}]},
+            {"id":"post_waiver_procedure","title":"Post-Waiver Procedure","content":[{"type":"note","text":"Once extradition is ordered, there should be a reasonable adjournment to allow for representatives of the demanding state to take custody of the defendant. The case should be scheduled to appear on the court’s calendar at the end of that period to make sure the demanding state has taken custody of the defendant and the defendant does not otherwise stay in custody unnecessarily."}]}
+         ],
+         "footnotes": [
+            {"id":"footnote_1","citation_number":1,"content":[{"type":"legal_citation","citation":"CPL 570.24 Rights of accused person; application for writ of habeas corpus","text":"\"No person arrested upon such warrant shall be delivered over to the agent whom the executive authority demanding him shall have appointed to receive him unless he shall first be taken forthwith before a justice or judge of a court of record in this state, who shall inform him of the demand made for his surrender and of the crime with which he is charged, and that he has the right to demand and procure legal counsel; and if the prisoner or his counsel shall state that he or they desire to test the legality of his arrest, the justice or judge of such court of record shall fix a reasonable time to be allowed within which to apply for a writ of habeas corpus. When such writ is applied for, notice thereof, and of the time and place of hearing thereon, shall be given to the district attorney of the county in which the arrest is made and in which the accused is in custody, and to the said agent of the demanding state.\""},{"type":"case_law","cases":[{"case":"People ex rel. Neufeld v Commissioner of N.Y. City Dept. of Correction, 132 AD2d 720, 721 (2d Dept 1987)","holding":"Extradition was \"mandatory once having determined that the [demanding state's] requisition papers were in order, that [the relator] was charged with a crime in the [demanding state], and that [the relator] was the fugitive sought in that State\"), aff’d for reasons stated 71 NY2d 881 (1988);"},{"case":"U. S. ex rel. Davis v Behagen, 436 F2d 596 (2d Cir 1970)","holding":"\"Neither state nor federal courts in the asylum state may question the existence of probable cause for an indictment. It appears from the papers that petitioner is the individual named in the writ of extradition, was charged with a crime in the demanding state in accordance with its statute and is a fugitive, i.e., was in the demanding state when the alleged crime was committed. Accordingly, we affirm for the reasons stated both in Judge Frankel's opinion [321 F Supp 1216] and the opinion of Chief Judge Fuld [in People ex rel. Davis v. Behagen, 27 NY2d 877 (1970) (denying application for a stay of extradtion)]\";"},{"case":"California v Superior Court of California, San Bernardino County, 482 US 400, 417 (1987)","holding":"“[A]n asylum state court's inquiry may not reach the merits of issues that could be fully litigated in the charging State; such examinations entangle the asylum State's judicial system in laws with which it is unfamiliar and endanger the summary nature of extradition proceedings”."}]}]}
+         ]
+     };
+
+    function renderSection(section) {
+        let html = `<div class='card'><h2>${section.title || ''}</h2>`;
+        if (section.content) {
+            section.content.forEach(item => {
+                if (item.type === 'dialogue_group' || item.type === 'dialogue') {
+                    html += `<div class='live-focus'><span class='font-semibold'>${item.speaker}:</span><ul style='margin-left:1.5em;'>`;
+                    (item.lines || []).forEach(line => {
+                        html += `<li>${line}</li>`;
+                    });
+                    html += `</ul></div>`;
+                } else if (item.type === 'note') {
+                    html += `<div class='note'><strong>Note:</strong> ${item.text}</div>`;
+                } else if (item.type === 'instruction') {
+                    html += `<div class='note'><strong>Instruction:</strong> ${item.text}</div>`;
+                } else if (item.type === 'statement') {
+                    html += `<div class='live-focus' style='font-weight:600;'>${item.speaker ? `<span class='font-semibold'>${item.speaker}:</span> ` : ''}${item.text}</div>`;
+                }
+            });
+        }
+        html += '</div>';
+        return html;
+    }
+
+    function renderFootnotes(footnotes) {
+        if (!footnotes || !footnotes.length) return '';
+        let html = `<div class='footnotes'><h2>Footnotes</h2><ol>`;
+        footnotes.forEach(fn => {
+            html += `<li id='fn${fn.citation_number}'>`;
+            fn.content.forEach(item => {
+                if (item.type === 'legal_citation') {
+                    html += `<strong>${item.citation}.</strong><br>${item.text}<br><br>`;
+                } else if (item.type === 'case_law') {
+                    (item.cases || []).forEach(cs => {
+                        html += `<em>${cs.case}</em>: ${cs.holding}<br>`;
+                    });
+                }
+            });
+            html += `</li>`;
+        });
+        html += `</ol></div>`;
+        return html;
+    }
+
+    function renderColloquy() {
+        const root = document.getElementById('arraignment-root');
+        try {
+            const data = FUGITIVE_COLLOQUY;
+            let html = '';
+            (data.sections || []).forEach(section => {
+                html += renderSection(section);
+            });
+            html += renderFootnotes(data.footnotes);
+            root.innerHTML = html;
+        } catch (e) {
+            root.innerHTML = `<div class='card'><span style='color:red;'>Failed to load arraignment script: ${e.message}</span></div>`;
+        }
+    }
+    document.addEventListener('DOMContentLoaded', renderColloquy);
+    </script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+{
+  "title": "ABBREVIATED COLLOQUY FOR A NON-FELONY",
+  "publication_note": "Added June, 2017",
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "Usage Note",
+      "content": [
+        {
+          "type": "paragraph",
+          [cite_start]"text": "In recognition of the high volume of pleas to non-felony offenses which may be required to be taken on a given day in a local criminal court, the following questions extracted from the recommended plea colloquy provide, in the discretion of the court, a shorter, albeit sufficient, plea colloquy. [cite: 2]"
+        },
+        {
+          "type": "paragraph",
+          [cite_start]"text": "However, even for non-felony offense, the expanded colloquy or parts thereof may be appropriate. [cite: 3]"
+        },
+        {
+          "type": "paragraph",
+          [cite_start]"text": "Sentences in brackets are recommended but not required by law. [cite: 4]"
+        }
+      ]
+    },
+    {
+      "id": "colloquy_questions",
+      "title": "Colloquy Script",
+      "content": [
+        {
+          "type": "question",
+          [cite_start]"text": "Have you spoken with your lawyer about your case, about pleading guilty and its consequences? [cite: 5]",
+          "is_recommended": false
+        },
+        {
+          "type": "question",
+          [cite_start]"text": "Are you satisfied with the services of your lawyer? [cite: 6]",
+          "is_recommended": true
+        },
+        {
+          "type": "question",
+          "text": "The allegations of (name of crime) are (specify). [cite_start]Is that true? [cite: 7]",
+          "is_recommended": true
+        },
+        {
+          "type": "question",
+          [cite_start]"text": "Do you plead guilty to (specify name of offense, and if so, and not already on the record, the court may add: “which is in satisfaction of (specify the more serious charge))? [cite: 8]",
+          "is_recommended": false
+        },
+        {
+          "type": "question",
+          [cite_start]"text": "Do you understand that the sentence will be: (specify)? [cite: 9]",
+          "is_recommended": false
+        },
+        {
+          "type": "question",
+          [cite_start]"text": "Do you understand that by pleading guilty, you waive your right to a trial [by jury] where you would have the right to confront and cross-examine witnesses and to remain silent and not to incriminate yourself? [cite: 10]",
+          "is_recommended": false
+        },
+        {
+          "type": "conditional_question",
+          "condition": "If you are not a citizen of the United States",
+          "question": {
+            [cite_start]"text": "Do you wish to plead guilty, regardless of whether the plea in whole or in part results in your deportation, exclusion from the United States or denial of naturalization? [cite: 12]",
+            "is_recommended": true
+          }
+        },
+        {
+          "type": "question",
+          [cite_start]"text": "Are you pleading guilty voluntarily, of your own free will and choice? [cite: 13]",
+          "is_recommended": false
+        },
+        {
+            "type": "statement",
+            [cite_start]"text": "The plea is acceptable to the Court. [cite: 13]"
+        }
+      ]
+    },
+    {
+      "id": "legal_notes",
+      "title": "Legal Basis and Notes",
+      "content": [
+        {
+          "type": "legal_summary",
+          "title": "Representation by Counsel",
+          [cite_start]"text": "Cases like People v Conceicao, People v Pellegrino, and People v Sougou indicate that the record should show the defendant is actively represented by an attorney, had a fair opportunity to consult with the lawyer about the plea and its consequences, and, if applicable, that the plea is in satisfaction of a more serious charge. [cite: 14, 15]"
+        },
+        {
+          "type": "legal_summary",
+          "title": "Waiver of Trial Rights",
+          [cite_start]"text": "The specification of the rights included within the waiver of the right to a trial (confrontation of witnesses, right to remain silent) are derived from Boykin v. Alabama, 395 U.S. 238 (1969). [cite: 16]"
+        },
+        {
+          "type": "legal_summary",
+          "title": "Validity of Plea",
+          [cite_start]"text": "The Court of Appeals has held that failing to recite these specific rights word-for-word (in haec verba) will not invalidate the plea if the 'record as a whole affirmatively shows that the defendant intentionally relinquished those rights.' [cite: 17] [cite_start]However, it is best practice to advise the defendant expressly of the rights being waived to avoid ambiguity and the need for an appellate court to search the record. [cite: 18]"
+        }
+      ]
+    }
+  ]
+}

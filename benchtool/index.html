@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Judicial Bench Toolkit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Lora', serif; background-color: #f8fafc; }
+        .tool-section { padding-top: 4rem; margin-top: -4rem; }
+        .tool-card { transition: all 0.2s ease; }
+        .tool-card:hover { transform: translateY(-2px); box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); }
+        .primary-tool { background-color: #eef2ff; border-color: #c7d2fe; }
+        .group-title { font-size: 1.25rem; font-weight: 600; color: #475569; margin-bottom: 1rem; }
+        .tool-group-container { background-color: #fff; border-radius: 0.75rem; padding: 1.5rem; margin-top: 2rem; border: 1px solid #e2e8f0; }
+        .search-container { position: relative; width: 100%; max-width: 320px; }
+        .search-container input { width: 100%; padding: 0.5rem 1rem; border: 1px solid #d1d5db; border-radius: 0.5rem; background-color: #fff; font-family: 'Lora', serif; }
+        .search-dropdown { position: absolute; top: 100%; left: 0; right: 0; background-color: white; border: 1px solid #d1d5db; border-top: none; border-radius: 0 0 0.5rem 0.5rem; max-height: 300px; overflow-y: auto; z-index: 100; box-shadow: 0 8px 10px rgba(0,0,0,0.1); }
+        .search-dropdown a { display: block; padding: 0.75rem 1rem; color: #334155; text-decoration: none; }
+        .search-dropdown a:hover { background-color: #f1f5f9; }
+        .hidden { display: none; }
+    </style>
+</head>
+<body class="text-gray-800">
+    <div class="container mx-auto max-w-6xl my-8 px-4">
+        <header class="text-center mb-8">
+            <div class="flex items-center justify-center mb-4">
+                <i class="fas fa-gavel text-4xl text-slate-600 mr-4"></i>
+                <div>
+                    <h1 class="text-4xl md:text-5xl font-bold text-slate-800">Local Judicial Bench Toolkit</h1>
+                    <p class="text-lg text-slate-500 mt-2">Self-contained, offline version for Mac & Windows</p>
+                </div>
+            </div>
+            <div class="flex justify-center space-x-4 text-sm text-slate-600">
+                <span><i class="fas fa-laptop mr-1"></i> Local/Offline Only</span>
+                <span><i class="fas fa-database mr-1"></i> All data stored locally</span>
+            </div>
+        </header>
+        <section class="tool-section mb-8">
+            <div class="bg-white rounded-xl shadow-lg border border-slate-300 p-8">
+                <div class="flex flex-col md:flex-row justify-between items-center border-b-2 border-slate-200 pb-4 mb-8">
+                    <h2 class="text-3xl font-semibold text-slate-700 mb-4 md:mb-0">Bench Tools</h2>
+                    <div class="search-container">
+                        <input type="text" id="search-input" placeholder="Search for a tool...">
+                        <div id="search-dropdown" class="search-dropdown hidden"></div>
+                    </div>
+                </div>
+                <div class="tool-group-container">
+                    <h3 class="group-title">Core Tools</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <a href="./plea_of_guilty_tool.html" class="block p-6 bg-slate-50 rounded-lg border border-slate-300 tool-card primary-tool">
+                            <h3 class="font-semibold text-xl text-slate-700 mb-2">Plea of Guilty Colloquy</h3>
+                            <p class="text-slate-600">Modern plea colloquy with local offense search and dynamic script.</p>
+                        </a>
+                        <a href="./motion_schedule.html" class="block p-6 bg-slate-50 rounded-lg border border-slate-300 tool-card">
+                            <h3 class="font-semibold text-xl text-slate-700 mb-2">Motion Schedule</h3>
+                            <p class="text-slate-600">Calculates an omnibus motion schedule using local data.</p>
+                        </a>
+                        <a href="./sentencing.html" class="block p-6 bg-slate-50 rounded-lg border border-slate-300 tool-card">
+                            <h3 class="font-semibold text-xl text-slate-700 mb-2">NY Sentencing Guide</h3>
+                            <p class="text-slate-600">Sentencing tool for NY Penal Law and selected VTL offenses (local database).</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="tool-group-container">
+                    <h3 class="group-title">Arraignments</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <a href="./bail.html" class="block p-6 bg-slate-50 rounded-lg border border-slate-300 tool-card">
+                            <h3 class="font-semibold text-xl text-slate-700 mb-2">Bail Determination Tool</h3>
+                            <p class="text-slate-600">Guide for determining qualifying offenses and setting securing orders (offline).</p>
+                        </a>
+                        <a href="./vop_arraignment.html" class="block p-6 bg-slate-50 rounded-lg border border-slate-300 tool-card">
+                            <h3 class="font-semibold text-xl text-slate-700 mb-2">Arraignment: VOP</h3>
+                            <p class="text-slate-600">Script for arraigning a defendant on a Violation of Probation charge.</p>
+                        </a>
+                        <a href="./fugitive_arraignment.html" class="block p-6 bg-slate-50 rounded-lg border border-slate-300 tool-card">
+                            <h3 class="font-semibold text-xl text-slate-700 mb-2">Fugitive Arraignment</h3>
+                            <p class="text-slate-600">For arraigning a defendant charged as a fugitive from another state under CPL Art. 570.</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="tool-group-container">
+                    <h3 class="group-title">Colloquies & Inquiries</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <a href="./non_felony_plea.html" class="block p-6 bg-slate-50 rounded-lg border border-slate-300 tool-card">
+                            <h3 class="font-semibold text-xl text-slate-700 mb-2">Abbreviated Non-Felony Plea</h3>
+                            <p class="text-slate-600">Condensed plea colloquy for high-volume non-felony offenses.</p>
+                        </a>
+                        <a href="./readiness_inquiry.html" class="block p-6 bg-slate-50 rounded-lg border border-slate-300 tool-card">
+                            <h3 class="font-semibold text-xl text-slate-700 mb-2">Inquiry into Actual Readiness</h3>
+                            <p class="text-slate-600">Script for inquiries regarding Certificate of Compliance (COC) and trial readiness.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const searchInput = document.getElementById('search-input');
+            const searchDropdown = document.getElementById('search-dropdown');
+            const toolCards = document.querySelectorAll('.tool-card');
+            const allToolLinks = Array.from(toolCards).map(card => {
+                return {
+                    name: card.querySelector('h3').textContent.toLowerCase(),
+                    href: card.getAttribute('href')
+                };
+            });
+            function renderToolDropdown(filteredTools) {
+                searchDropdown.innerHTML = '';
+                if (filteredTools.length === 0) {
+                    searchDropdown.classList.add('hidden');
+                    return;
+                }
+                filteredTools.forEach(tool => {
+                    const a = document.createElement('a');
+                    a.textContent = tool.name;
+                    a.href = tool.href;
+                    a.target = '_self';
+                    searchDropdown.appendChild(a);
+                });
+                searchDropdown.classList.remove('hidden');
+            }
+            searchInput.addEventListener('input', function() {
+                const searchTerm = searchInput.value.toLowerCase();
+                if (!searchTerm) {
+                    searchDropdown.classList.add('hidden');
+                    return;
+                }
+                const filteredTools = allToolLinks.filter(tool => tool.name.includes(searchTerm));
+                renderToolDropdown(filteredTools);
+            });
+            searchInput.addEventListener('focus', function() {
+                if (searchInput.value === '') {
+                    renderToolDropdown(allToolLinks);
+                }
+            });
+            document.addEventListener('click', function(e) {
+                if (!searchInput.contains(e.target) && !searchDropdown.contains(e.target)) {
+                    searchDropdown.classList.add('hidden');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

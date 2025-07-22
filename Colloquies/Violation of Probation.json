@@ -1,0 +1,83 @@
+{
+  "title": "VIOLATION OF PROBATION",
+  "publication_date": "Published Aug. 2016",
+  "sections": [
+    {
+      "id": "preamble",
+      "title": "Preamble and Setup",
+      "content": [
+        {
+          "type": "note",
+          [cite_start]"text": "The following is premised on the understanding that the defendant is present and represented by an attorney. [cite: 2]"
+        },
+        {
+          "type": "instruction",
+          [cite_start]"text": "It should be set forth on the record that on (date), the defendant was convicted by [a plea of guilty / verdict] of (specify) and on (date), the defendant was sentenced to (specify), and on (date), a declaration of delinquency for a violation of probation was signed. [cite: 3]"
+        }
+      ]
+    },
+    {
+      "id": "colloquy_script",
+      "title": "Arraignment Script",
+      "content": [
+        {
+          "type": "dialogue_group",
+          "title": "Initial Advisement",
+          "speaker": "Court to the Defendant",
+          "lines": [
+            [cite_start]"You are charged with violating the following condition(s) of probation (specify). [cite: 5]",
+            "If I find you in violation of probation, you will be subject to resentence on your conviction. [cite_start]Do you understand? [cite: 6]",
+            [cite_start]"On a charge of a violation of probation, you are entitled to an opportunity to be heard and you may therefore make a statement on your own behalf. [cite: 7]",
+            [cite_start]"You are also entitled to a hearing to determine whether you in fact violated a condition of probation. [cite: 8]",
+            [cite_start]"Do you understand? [cite: 9]",
+            [cite_start]"If you admit the violation, you waive your right to a hearing and will be subject to resentence. [cite: 10]",
+            [cite_start]"Do you understand? [cite: 11]",
+            "[If you chose to admit the violation, I have, after consulting with your attorney and the district attorney, promised to resentence you to (specify). [cite_start]Do you understand?] [cite: 12, 13]",
+            [cite_start]"Do you wish to make a statement or request a hearing? [cite: 14]"
+          ]
+        },
+        {
+          "type": "conditional_dialogue_group",
+          "title": "Admission Colloquy",
+          [cite_start]"condition": "If the defendant is prepared to admit the violation, continue as follows: [cite: 15]",
+          "speaker": "Court to the Defendant",
+          "lines": [
+            [cite_start]"Do you admit the violation of probation? [cite: 16]",
+            "Have you discussed the matter with your attorney? [cite_start]Are you satisfied with the services of your attorney? [cite: 17]",
+            [cite_start]"Other than the sentence I have agreed to, has anyone made any other promise, commitment, or representation of any kind to you to get you to admit the violation? [cite: 18]",
+            [cite_start]"Has anyone threatened you, or forced you, or pressured you to admit the violation against your will? [cite: 19]",
+            [cite_start]"Have I, or your lawyer, or anyone else said anything to you to have you admit the violation against your will? [cite: 20]",
+            [cite_start]"Are you therefore admitting the violation, voluntarily, of your own free will and choice? [cite: 21]"
+          ]
+        },
+        {
+          "type": "statement",
+          "title": "Court Finding",
+          [cite_start]"text": "The Court finds that the defendant’s admission is knowingly, intelligently, and voluntarily entered and accordingly finds the defendant in violation of probation. [cite: 22]"
+        }
+      ]
+    },
+    {
+      "id": "legal_basis",
+      "title": "Legal Basis",
+      "content": [
+        {
+          "type": "legal_citation",
+          "citation": "CPL 410.70 Hearing on violation",
+          "subdivisions": [
+            {
+              "number": 1,
+              "title": "In general",
+              [cite_start]"text": "The court may not revoke a sentence of probation or a sentence of conditional discharge, or extend a period of probation, unless (a) the court has found that the defendant has violated a condition of the sentence and (b) the defendant has had an opportunity to be heard pursuant to this section. [cite: 23, 24] [cite_start]The defendant is entitled to a hearing in accordance with this section promptly after the court has filed a declaration of delinquency or has committed him or has fixed bail pursuant to this article. [cite: 25]"
+            },
+            {
+              "number": 2,
+              "title": "Statement; preliminary examination",
+              [cite_start]"text": "The court must file or cause to be filed with the clerk of the court a statement setting forth the condition or conditions of the sentence violated and a reasonable description of the time, place and manner in which the violation occurred. [cite: 26] [cite_start]The defendant must appear before the court within ten business days of the court's issuance of the notice to appear and the court must advise him of the contents of the statement and furnish him with a copy thereof. [cite: 27] [cite_start]At the time of such appearance the court must ask the defendant whether he wishes to make any statement with respect to the violation. [cite: 28] [cite_start]If the defendant makes a statement, the court may accept it and base its decision thereon. [cite: 29] [cite_start]If the court does not accept it, or if the defendant does not make a statement, the court must proceed with the hearing. [cite: 30, 32] [cite_start]Provided, however, that upon request, the court must grant a reasonable adjournment to the defendant to enable him to prepare for the hearing. [cite: 32]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
